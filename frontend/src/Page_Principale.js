@@ -1,8 +1,15 @@
 import React from 'react';
 import './App.css';
+import Widget_Chart from './Widget_Chart'
+
+// Page Widgets 
 function Page_Principale() {
     return(
-        <h1> Main Page </h1>
+
+        <div className="widget-Chart">
+            <Widget_Chart></Widget_Chart>
+        </div>
+        
     );
 }
 

@@ -1,12 +1,12 @@
 import React from 'react'
 import './App.css'
 import { Link } from 'react-router-dom'
-import Logo from './images/Logo.png'
-
+import Logo from './images/Logo.png' // Logo de notre DashBoard
 export {
     Logo
 }
-
+ // Le Haut de la page Logo + Boutons
+ 
 function Nav(){
     return(
         <nav>
@@ -14,7 +14,7 @@ function Nav(){
             
             <ul className="nav-links">
                 <Link to="/Page_Admin">
-                <button className="btn">Page Administrative</button>
+                <button className="btn" >Page Administrative</button>
                 </Link>
                 
                 <Link  to="/Page_Principale">

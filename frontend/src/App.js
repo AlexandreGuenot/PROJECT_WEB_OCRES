@@ -16,7 +16,6 @@ function App() {
                 <Route path="/Page_Admin" component={Page_Admin}></Route>
                 </Switch>
             </div>
-
         </Router>
     );
 }

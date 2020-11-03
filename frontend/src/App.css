@@ -15,12 +15,21 @@ nav {
   list-style: none;
 }
 .btn {
-  background-color: rgba(255, 238, 0, 0.329);
-  border-radius: 0.7rem;
+  background-color: rgba(143, 238, 214, 0.329);
+  border-radius: 0.5rem;
   height: 3rem;
+  font-weight: bold;
   float: right;
   margin-right: 2rem;
   margin-left: 5rem;
   margin-top: 3rem;
+  cursor: pointer;
 }
 /* Fin Header */
+
+/*Page Principale*/
+.widget-Chart {
+  width: 35rem;
+  height: 20rem;
+  margin-top: 25rem;
+}
