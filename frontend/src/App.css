@@ -1,8 +1,10 @@
 /* Header */
+
 nav {
   display: flex;
   height: 10rem;
   background-color: rgb(214, 196, 115);
+  position: sticky;
 }
 
 .Logo {
@@ -28,8 +30,46 @@ nav {
 /* Fin Header */
 
 /*Page Principale*/
-.widget-Chart {
+
+.row {
+  width: 100%;
+  height: 26.5rem;
+}
+.Widget-1 {
+  width: 40rem;
+  height: 20rem;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  background-color: cadetblue;
+  border-radius: 0.75rem;
+}
+.Widget-2 {
   width: 35rem;
   height: 20rem;
-  margin-top: 25rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  background-color: green;
+  border-radius: 0.75rem;
+}
+.Widget-3 {
+  width: 28rem;
+  height: 14rem;
+  margin-top: 4rem;
+  background-color: grey;
+  margin-left: 20rem;
+  border-radius: 0.75rem;
+}
+.widget-Chart {
+  width: 50rem;
+  height: 23rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+  border-radius: 0.75rem;
+}
+.widget-Radar {
+  width: 30rem;
+  height: 23rem;
+  margin-top: 2rem;
+  margin-left: 15rem;
+  border-radius: 0.75rem;
 }

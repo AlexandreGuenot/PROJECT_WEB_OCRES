@@ -10,10 +10,10 @@ class Widget_Chart extends Component{
     render(){
         return(
             <LineChart
-                width={700}
-                height={400}
+                width={780}
+                height={375}
                 data={data_Chart}
-                margin={{ top: 5, right: 30, left: 20, bottom: 5,}}>
+                margin={{ top: 5, right: 30, left: 1, bottom: 5,}}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
                 <YAxis />

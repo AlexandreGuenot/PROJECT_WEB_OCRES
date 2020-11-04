@@ -14,7 +14,7 @@ function Nav(){
             
             <ul className="nav-links">
                 <Link to="/Page_Admin">
-                <button className="btn" >Page Administrative</button>
+                <button className="btn">Page Administrative</button>
                 </Link>
                 
                 <Link  to="/Page_Principale">
