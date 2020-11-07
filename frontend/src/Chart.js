@@ -14,7 +14,7 @@ class Widget_Chart extends Component{
                 height={375}
                 data={data_Chart}
                 margin={{ top: 5, right: 30, left: 1, bottom: 5,}}>
-                <CartesianGrid strokeDasharray="3 3" />
+                <CartesianGrid strokeDasharray="2 2" />
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
