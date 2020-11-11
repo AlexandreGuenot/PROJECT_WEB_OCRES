@@ -19,8 +19,8 @@ class Widget_Chart extends Component{
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="pv" stroke="#8884d8" activeDot={{ r: 8 }} />
-                <Line type="monotone" dataKey="uv" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="donnees_2" stroke="#8884d8" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="donnees_1" stroke="#82ca9d" />
             </LineChart>
       );
     }

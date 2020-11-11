@@ -2,9 +2,11 @@ import React, { useCallback } from 'react';
 import './App.css';
 import Widget_Chart from './Chart'
 import Widget_Radar from './Radar'
-import { FaFacebook} from 'react-icons/fa';
-import { FiTwitter} from 'react-icons/fi';
-import {GrInstagram} from 'react-icons/gr'
+import Widget_1 from './Widget-1'
+import Widget_2 from './Widget-2'
+import Widget_3 from './Widget-3'
+import Widget_4 from './Widget-4'
+
 // Page Widgets 
 function Page_Principale() {
     return(
@@ -12,20 +14,15 @@ function Page_Principale() {
             <div className="row">   {/* Row Widget 1/2/3 */}
             
                 <div className="col-sm-4">
-                    <div className="Widget-1">
-                        <h3>Widget 1 : Most Visited...</h3>
-                    </div>
+                        <Widget_1/> 
                 </div>
 
-                <div className="col-sm-3">
-                    <div className="Widget-2">
-                        <h3>Widget 2 : Latest...</h3>
-                    </div>
+                <div className="col-sm-3">                    
+                        <Widget_2/>
                 </div>
+
                 <div className="col-sm-1">
-                    <div className="Widget-3">
-                        <h3>Widget 3 : Total Views...</h3>
-                    </div>
+                        <Widget_3/>
                 </div>
             </div>
 
@@ -40,18 +37,7 @@ function Page_Principale() {
                          <Widget_Radar/>
                     </div>
                 </div>
-                <div className="Widget-4">
-                    <h3>Widget 4 : Followers per Network</h3>
-                    <table>
-                        <thead>
-                        <tr>
-                        <th><FaFacebook></FaFacebook>Number of Followers</th>
-                        <th><GrInstagram></GrInstagram>Number of Followers</th>
-                        <th><FiTwitter></FiTwitter>Number of Followers</th>
-                        </tr>
-                        </thead>
-                    </table>
-                </div>
+                        <Widget_4/>                
                 </div>
 
         <footer>
