@@ -1,44 +1,44 @@
-import React, { useCallback } from 'react';
+import React from 'react';
 import './App.css';
-import Widget_Chart from './Chart'
-import Widget_Radar from './Radar'
-import Widget_1 from './Widget-1'
-import Widget_2 from './Widget-2'
-import Widget_3 from './Widget-3'
-import Widget_4 from './Widget-4'
+import Widget_Courbes from './Courbes';
+import Widget_Arraignée from './Arraignée'
+import Widget_Histogramme from './Histogramme'
+import Nbres_de_pas from './Nbres_de_pas'
+import Camembert from './Camembert'
+import StickVertical from './Sticks'
+
 
 // Page Widgets 
 function Page_Principale() {
     return(
         <div className="main">
-            <div className="row">   {/* Row Widget 1/2/3 */}
+            <div className="row">   {/* Row */}
             
                 <div className="col-sm-4">
-                        <Widget_1/> 
+                         <Widget_Courbes/>
                 </div>
 
                 <div className="col-sm-3">                    
-                        <Widget_2/>
+                        <Nbres_de_pas/>
                 </div>
 
                 <div className="col-sm-1">
-                        <Widget_3/>
+                        <Camembert/>
                 </div>
-            </div>
+            </div>  {/*  Row */}
 
             <div className="row"> {/* Row Widget Chart/Radar/4 */}
                 <div className="col-sm-4">
-                    <div className="widget-Chart">
-                         <Widget_Chart/>
-                    </div>
+                        <Widget_Histogramme/>
                 </div>
                 <div className="col-sm-2">
-                    <div className="widget-Radar">
-                         <Widget_Radar/>
-                    </div>
+                         <Widget_Arraignée/>       
                 </div>
-                        <Widget_4/>                
+                <div className="col-sm-6">
+                        <StickVertical/>
                 </div>
+
+            </div>   {/*  Row */}
 
         <footer>
             <div className="le-footer">
