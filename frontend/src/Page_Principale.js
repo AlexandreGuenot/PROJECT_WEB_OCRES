@@ -5,7 +5,7 @@ import Widget_Arraignée from './Arraignée'
 import Widget_Histogramme from './Histogramme'
 import Nbres_de_pas from './Nbres_de_pas'
 import Camembert from './Camembert'
-import StickVertical from './Sticks'
+import Vertical_Sticks from './Sticks'
 
 
 // Page Widgets 
@@ -14,28 +14,28 @@ function Page_Principale() {
         <div className="main">
             <div className="row">   {/* Row */}
             
-                <div className="col-sm-4">
+                <div className="col-lg-4">
                          <Widget_Courbes/>
                 </div>
 
-                <div className="col-sm-3">                    
+                <div className="col-lg-3">                    
                         <Nbres_de_pas/>
                 </div>
 
-                <div className="col-sm-1">
+                <div className="col-lg-1">
                         <Camembert/>
                 </div>
             </div>  {/*  Row */}
 
             <div className="row"> {/* Row Widget Chart/Radar/4 */}
-                <div className="col-sm-4">
+                <div className="col-lg-4">
                         <Widget_Histogramme/>
                 </div>
-                <div className="col-sm-2">
+                <div className="col-lg-2">
                          <Widget_Arraignée/>       
                 </div>
-                <div className="col-sm-6">
-                        <StickVertical/>
+                <div className="col-lg-6">
+                        <Vertical_Sticks/>
                 </div>
 
             </div>   {/*  Row */}

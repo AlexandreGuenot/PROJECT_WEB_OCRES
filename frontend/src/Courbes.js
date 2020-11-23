@@ -21,8 +21,8 @@ class Widget_Courbes extends Component{
                 <YAxis />
                 <Tooltip />
                 <Legend />
-                <Line type="monotone" dataKey="Semaine_Précedente" stroke="#8884d8" activeDot={{ r: 8 }} />
-                <Line type="monotone" dataKey="Semaine_Actuelle" stroke="#82ca9d" />
+                <Line type="monotone" dataKey="Semaine_Précedente" stroke="#FFFFFF" activeDot={{ r: 8 }} />
+                <Line type="monotone" dataKey="Semaine_Actuelle" stroke="#707070"   activeDot={{ r: 8 }}/>
             </LineChart>
 </div>
       );

@@ -4,7 +4,7 @@ import data_Histo from './Data_Histo'
 
 
 import {
-  BarChart, Bar, Cell, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
 
 class Widget_Histogramme extends Component{

@@ -1,10 +1,10 @@
-import React, { PureComponent } from 'react';
+import React, { Component } from 'react';
 import {
   ComposedChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip,
   Legend,
 } from 'recharts';
 import data_Sticks from './Data_Sticks'
-export default class Example extends PureComponent {
+export class Vertical_Sticks extends Component {
 
   render() {
     return (
@@ -30,3 +30,4 @@ export default class Example extends PureComponent {
     );
   }
 }
+export default Vertical_Sticks;

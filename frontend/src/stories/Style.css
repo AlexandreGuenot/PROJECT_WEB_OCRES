@@ -1,9 +1,8 @@
 /* Header */
-
 nav {
   display: flex;
   height: 10rem;
-  background-color: slategrey;
+  background-color: #4d774e;
   position: sticky;
 }
 
@@ -34,7 +33,7 @@ ul {
 
 /*Page Principale*/
 .main {
-  background-color: #234766;
+  background-color: #164a41;
   height: 53rem;
 }
 .row {
@@ -48,7 +47,7 @@ ul {
   margin-top: 4rem;
   margin-left: 1rem;
   border-radius: 0.75rem;
-  background-color: rosybrown;
+  background-color: #9dc88d;
 }
 .title {
   text-align: center;
@@ -60,7 +59,7 @@ ul {
   height: 20rem;
   margin-top: 8rem;
   margin-left: 1rem;
-  background-color: firebrick;
+  background-color: #f1b24a;
   border-radius: 0.75rem;
 }
 .widget_Arraignée {
@@ -69,7 +68,7 @@ ul {
   margin-top: 8rem;
   margin-left: 5rem;
   border-radius: 0.75rem;
-  background-color: saddlebrown;
+  background-color: #ffffff;
 }
 .Nbres_de_pas {
   text-align: center;
@@ -77,7 +76,7 @@ ul {
   height: 23rem;
   margin-top: 4rem;
   margin-left: 5rem;
-  background-color: red;
+  background-color: #a3bcb6;
   border-radius: 0.75rem;
 }
 .today {
@@ -105,7 +104,7 @@ ul {
   width: 28rem;
   height: 23rem;
   margin-top: 4rem;
-  background-color: grey;
+  background-color: #39603d;
   margin-left: 20rem;
   border-radius: 0.75rem;
 }
@@ -114,9 +113,10 @@ ul {
 }
 .widget_Stick {
   text-align: center;
+  width: 33rem;
   height: 20rem;
   border-radius: 0.75rem;
-  background-color: sandybrown;
+  background-color: #3c403d;
   margin-left: 25rem;
   margin-top: 8rem;
 }

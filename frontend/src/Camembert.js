@@ -27,7 +27,7 @@ class Camembert extends Component {
     return (
 <div className="widget-Camembert">
     <div className="title">Consommation Alimentaire ce mois-ci</div>
-      <div className="legende">Bleu : Viande<br/>Orange : Légumes<br/>Vert : Poisson<br/>Jaune : Sodas</div>                        
+      <div className="legende">Bleu : Viande<br/>Orange : Légumes<br/>Vert : Poisson<br/>Jaune : Féculents</div>                        
         <PieChart width={400} height={500}>
           <Pie
             data={data_Camembert}

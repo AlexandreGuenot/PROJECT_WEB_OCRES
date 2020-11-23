@@ -10,7 +10,7 @@ export {
 function Nav(){
     return(
         <nav>
-            <img src={Logo} className="Logo"></img>
+            <img src={Logo} alt="Logo Heath.I" className="Logo"></img>
             
             <ul className="nav-links">
                 <Link to="/Page_Admin">
