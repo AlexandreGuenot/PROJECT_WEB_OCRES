@@ -1,0 +1,143 @@
+/* Header */
+nav {
+  display: flex;
+  height: 10rem;
+  background-color: #4d774e;
+  position: sticky;
+}
+ul {
+  list-style: none;
+}
+.Logo {
+  width: 12rem;
+  height: 10rem;
+  margin-left: 0rem;
+}
+.nav-links {
+  width: 100%;
+  list-style: none;
+}
+.btn {
+  background-color: rgba(143, 238, 214, 0.329);
+  border-radius: 0.5rem;
+  height: 3rem;
+  font-weight: bolder;
+  float: right;
+  margin-right: 2rem;
+  margin-left: 5rem;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+/* Fin Header */
+
+/*Page Principale*/
+.main {
+  background-color: #164a41;
+  height: 53rem;
+}
+.row {
+  width: 100%;
+  height: 20rem;
+}
+
+.widget-Courbes {
+  width: 41rem;
+  height: 23rem;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  border-radius: 0.75rem;
+  background-color: #9dc88d;
+}
+.title {
+  text-align: center;
+  font-weight: bolder;
+}
+.widget-Histogramme {
+  text-align: center;
+  width: 35rem;
+  height: 20rem;
+  margin-top: 8rem;
+  margin-left: 1rem;
+  background-color: #f1b24a;
+  border-radius: 0.75rem;
+}
+.widget_Arraignée {
+  width: 35rem;
+  height: 20rem;
+  margin-top: 8rem;
+  margin-left: 5rem;
+  border-radius: 0.75rem;
+  background-color: #ffffff;
+}
+.Nbres_de_pas {
+  text-align: center;
+  width: 35rem;
+  height: 23rem;
+  margin-top: 4rem;
+  margin-left: 5rem;
+  background-color: #a3bcb6;
+  border-radius: 0.75rem;
+}
+.today {
+  align-items: center;
+  margin-top: 7rem;
+}
+.today h5 {
+  font-size: 40px;
+}
+.hier {
+  float: left;
+  margin-top: 7rem;
+}
+.hier h6 {
+  font-size: 30px;
+}
+.moyenne {
+  float: right;
+  margin-top: 7rem;
+}
+.moyenne h6 {
+  font-size: 30px;
+}
+.widget-Camembert {
+  width: 28rem;
+  height: 23rem;
+  margin-top: 4rem;
+  background-color: #39603d;
+  margin-left: 20rem;
+  border-radius: 0.75rem;
+}
+.legende {
+  font-weight: bolder;
+}
+.widget_Stick {
+  text-align: center;
+  width: 33rem;
+  height: 20rem;
+  border-radius: 0.75rem;
+  background-color: #3c403d;
+  margin-left: 25rem;
+  margin-top: 8rem;
+}
+tr {
+  display: block;
+  float: left;
+  font-size: 2rem;
+}
+th {
+  display: block;
+  height: 10rem;
+}
+
+footer {
+  background-color: black;
+  margin-top: 13rem;
+  width: auto;
+  height: 3rem;
+  text-decoration-color: blanchedalmond;
+}
+.le-footer {
+  color: aliceblue;
+  text-align: center;
+  padding: 0.75rem;
+}

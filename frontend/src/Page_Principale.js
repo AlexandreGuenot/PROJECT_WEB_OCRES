@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import Widget_Courbes from './Courbes';
-import Widget_Arraignée from './Arraignée'
-import Widget_Histogramme from './Histogramme'
-import Nbres_de_pas from './Nbres_de_pas'
-import Camembert from './Camembert'
-import Vertical_Sticks from './Sticks'
+import Widget_Courbes from './Components/Courbes';
+import Widget_Arraignée from './Components/Arraignée'
+import Widget_Histogramme from './Components/Histogramme'
+import Nbres_de_pas from './Components/Nbres_de_pas'
+import Camembert from './Components/Camembert'
+import Vertical_Sticks from './Components/Sticks'
 
 
 // Page Widgets 
