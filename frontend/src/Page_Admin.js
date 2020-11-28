@@ -26,8 +26,8 @@ function Page_Admin() {
 
                             <p>Tout d'abord, votre identité:</p>
 
-                            <label>Nom</label> : <input type="text" name="nom" id="nom" required/>
-                            <label>Prénom</label> : <input type="text" name="prenom" id="prenom" required/>
+                            <label>Nom</label> : <input type="text" name="nom" id="nom" required/><br/>
+                            <label>Prénom</label> : <input type="text" name="prenom" id="prenom" required/><br/>
                             <label>Date de naissance</label> : <input type="date" id="bday" required/> <br/>
                         </div>
 
@@ -36,12 +36,12 @@ function Page_Admin() {
 
                             <p>Nous allons maintenant regarder votre temps de sommeil hebdomadaire</p>
 
-                            <label>Lundi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="lundi"/> <br/>
-                            <label>Mardi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="mardi"/> <br/>
-                            <label>Mercredi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="mercredi"/><br/>
-                            <label>Jeudi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="jeudi"/> <br/>
-                            <label>Vendredi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="vendredi"/><br/>
-                            <label>Samedi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="samedi"/> <br/>
+                            <label>Lundi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="lundi"/>
+                            <label>Mardi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="mardi"/>
+                            <label>Mercredi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="mercredi"/>
+                            <label>Jeudi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="jeudi"/>
+                            <label>Vendredi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="vendredi"/>
+                            <label>Samedi</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="samedi"/>
                             <label>Dimanche</label> : <input type="number" name="dodo" min="1" max="12" step="0.5" id="dimanche"/> <br/>
                         </div>
 
@@ -51,8 +51,8 @@ function Page_Admin() {
                             <p>Indiquez nous vos habitudes alimentaires de la semaine</p>
 
                             <label>Viande</label> : <input type="range" name="food_hebdo" min="0" max="7" step="1" id="viande"/> 
+                            <label>Légume</label> : <input type="range" name="food_hebdo" min="0" max="7" step="1" id="legume"/><br/>
                             <label>Poisson</label> : <input type="range" name="food_hebdo" min="0" max="7" step="1" id="poisson"/>
-                            <label>Légume</label> : <input type="range" name="food_hebdo" min="0" max="7" step="1" id="legume"/>
                             <label>Féculent</label> : <input type="range" name="food_hebdo" min="0" max="7" step="1" id="feculent"/><br/>
                         </div>
 
@@ -61,12 +61,12 @@ function Page_Admin() {
 
                             <p>Vous marchez beaucoup ? Faites le nous savoir ! Petit tips cadeaux : votre smartphone a une fonction vous Indiquant le nombre de pas journalier, utilisez la, c'est plus simple. ;)</p>
 
-                            <label>Lundi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="lundi"/> <br/>
-                            <label>Mardi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="mardi"/> <br/>
-                            <label>Mercredi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="mercredi"/><br/>
-                            <label>Jeudi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="jeudi"/> <br/>
-                            <label>Vendredi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="vendredi"/><br/>
-                            <label>Samedi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="samedi"/> <br/>
+                            <label>Lundi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="lundi"/> 
+                            <label>Mardi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="mardi"/> 
+                            <label>Mercredi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="mercredi"/>
+                            <label>Jeudi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="jeudi"/>
+                            <label>Vendredi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="vendredi"/>
+                            <label>Samedi</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="samedi"/>
                             <label>Dimanche</label> : <input type="number" name="marche" min="0" max="100000" step="100" id="dimanche"/> <br/>
                         </div>
                         <div class="sport_form_p2">
@@ -118,12 +118,12 @@ function Page_Admin() {
                             <p>Vous travaillez avec un ordinateur? Vous êtes un grand adepte du fameux "Netflix & chill" sans le "chill"? Vous ne ratez aucune sauce sur Twitter, aucun buzz sur Instagram?</p>
                             <p>Alors faites nous part du temps (en moyenne) que vous passez derrière vos écrans. Petit tips: pour le téléphone, vous avez normalement une fonction vous informant du temps passé avec l'écran allumé ;)</p>
 
-                            <label>Lundi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="lundi"/> <br/>
-                            <label>Mardi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="mardi"/> <br/>
-                            <label>Mercredi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="mercredi"/><br/>
-                            <label>Jeudi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="jeudi"/> <br/>
-                            <label>Vendredi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="vendredi"/><br/>
-                            <label>Samedi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="samedi"/> <br/>
+                            <label>Lundi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="lundi"/>
+                            <label>Mardi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="mardi"/>
+                            <label>Mercredi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="mercredi"/>
+                            <label>Jeudi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="jeudi"/>
+                            <label>Vendredi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="vendredi"/>
+                            <label>Samedi</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="samedi"/>
                             <label>Dimanche</label> : <input type="number" name="screen" min="0.5" max="24" step="0.5" id="dimanche"/> <br/>
                         </div>
 

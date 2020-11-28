@@ -143,11 +143,47 @@ footer {
 }
 .main_admin {
   background-color: #164a41;
+  color: #a3bcb6;
   text-align: center;
-  color: blanchedalmond;
+  font-weight: bolder;
 }
 .infos_perso_form {
-  text-decoration-color: blanchedalmond;
+  color: blanchedalmond;
   text-align: center;
-
+  font-weight: normal;
+}
+.sommeil_form {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.bouffe_form {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.sport_form_p1 {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.sport_form_p2 {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.screen_form {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.docto_form {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
+}
+.fin_form {
+  color: blanchedalmond;
+  text-align: center;
+  font-weight: normal;
 }
