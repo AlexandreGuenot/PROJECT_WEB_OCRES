@@ -5,7 +5,7 @@ function Page_Admin() {
         <Fragment>
            {//server.post('/post.html', function(request, response) :{})
            // exécuté lorsqu'est appelé post.html 
-           //je crois c'est la fonction pour post sur node js
+           //je crois c'est la fonction pour post sur node js, à voir quand on fera le backend
             }
             <div class="main_admin">
 
@@ -136,7 +136,7 @@ function Page_Admin() {
                         </div>
 
                         <div class="fin_form">
-                            <p>C'est bon pour nous! Envoyez ces informations afin de compléter votre dashboard santé, et de bénéficier de nos meilleurs conseils, fournis directement par notr eéquipe de nutritionnistes et coachs sportifs Health.I !</p>
+                            <p>C'est bon pour nous! Envoyez ces informations afin de compléter votre dashboard santé, et de bénéficier de nos meilleurs conseils, fournis directement par notre équipe de nutritionnistes et coachs sportifs Health.I !</p>
 
                             <input type="submit" name="validation" value='Devenir "Health.I" ! "'/>
                         </div>
