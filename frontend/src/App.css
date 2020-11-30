@@ -43,8 +43,6 @@ ul {
 .widget-Courbes {
   width: 41rem;
   height: 23rem;
-  margin-top: 4rem;
-  margin-left: 1rem;
   border-radius: 0.75rem;
   background-color: #9dc88d;
 }
@@ -73,8 +71,6 @@ ul {
   text-align: center;
   width: 35rem;
   height: 23rem;
-  margin-top: 4rem;
-  margin-left: 5rem;
   background-color: #a3bcb6;
   border-radius: 0.75rem;
 }

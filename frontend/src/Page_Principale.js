@@ -12,40 +12,41 @@ import Vertical_Sticks from './Components/Sticks'
 function Page_Principale() {
     return(
         <div className="main">
-            <div className="row">   {/* Row */}
-            
-                <div className="col-lg-4">
-                         <Widget_Courbes/>
-                </div>
+            <div class="container-fluid">
+                <div className="row">   {/* Row */}
+                
+                    <div className="col-lg-4">
+                            <Widget_Courbes/>
+                    </div>
 
-                <div className="col-lg-3">                    
-                        <Nbres_de_pas/>
-                </div>
+                    <div className="col-lg-3">                    
+                            <Nbres_de_pas/>
+                    </div>
 
-                <div className="col-lg-1">
-                        <Camembert/>
-                </div>
-            </div>  {/*  Row */}
+                    <div className="col-lg-1">
+                            <Camembert/>
+                    </div>
+                </div>  {/*  Row */}
 
-            <div className="row"> {/* Row Widget Chart/Radar/4 */}
-                <div className="col-lg-4">
-                        <Widget_Histogramme/>
-                </div>
-                <div className="col-lg-2">
-                         <Widget_Arraignée/>       
-                </div>
-                <div className="col-lg-6">
-                        <Vertical_Sticks/>
-                </div>
+                <div className="row"> {/* Row Widget Chart/Radar/4 */}
+                    <div className="col-lg-4">
+                            <Widget_Histogramme/>
+                    </div>
+                    <div className="col-lg-2">
+                            <Widget_Arraignée/>       
+                    </div>
+                    <div className="col-lg-6">
+                            <Vertical_Sticks/>
+                    </div>
 
-            </div>   {/*  Row */}
+                </div>   {/*  Row */}
 
-        <footer>
-            <div className="le-footer">
-                Made by Gilles Liso & Alexandre Guenot
-            </div>
-        </footer>
-
+            <footer>
+                <div className="le-footer">
+                    Made by Gilles Liso & Alexandre Guenot
+                </div>
+            </footer>
+        </div>
 
         </div>
         
