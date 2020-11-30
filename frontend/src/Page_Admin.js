@@ -138,11 +138,14 @@ function Page_Admin() {
                         <div class="fin_form">
                             <p>C'est bon pour nous! Envoyez ces informations afin de compléter votre dashboard santé, et de bénéficier de nos meilleurs conseils, fournis directement par notre équipe de nutritionnistes et coachs sportifs Health.I !</p>
 
-                            <input type="submit" name="validation" value='Devenir "Health.I" ! "'/>
+                            <input type="submit" name="validation" value='Devenir "Health.I" ! "'/><br/>
                         </div>
                     </fieldset>
                 </form>
             </div>
+            <footer>
+                    Made by Gilles Liso & Alexandre Guenot
+            </footer>
         </Fragment>
     );
 }

@@ -12,7 +12,7 @@ class Widget_Courbes extends Component{
 <div className="widget-Courbes">
     <div className="title">Temps de Sommeil en heure</div>
             <LineChart
-                width={650}
+                width={550}
                 height={350}
                 data={data_Courbes}
                 margin={{ top: 5, right: 30, left: 1, bottom: 5,}}>

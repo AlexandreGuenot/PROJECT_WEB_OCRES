@@ -6,47 +6,44 @@ import Widget_Histogramme from './Components/Histogramme'
 import Nbres_de_pas from './Components/Nbres_de_pas'
 import Camembert from './Components/Camembert'
 import Vertical_Sticks from './Components/Sticks'
+import Row from 'react-bootstrap/Row'
+import Col from 'react-bootstrap/Col'
 
 
 // Page Widgets 
 function Page_Principale() {
     return(
         <div className="main">
-            <div class="container-fluid">
-                <div className="row">   {/* Row */}
+            <Container-fluid>
+                <Row>   {/* Row */}
                 
-                    <div className="col-lg-4">
+                    <Col lg={4} md={6} sm={12}>
                             <Widget_Courbes/>
-                    </div>
+                    </Col>
 
-                    <div className="col-lg-3">                    
+                    <Col lg={4} md={6} sm={12}>                    
                             <Nbres_de_pas/>
-                    </div>
+                    </Col>
 
-                    <div className="col-lg-1">
+                    <Col lg={4} md={6} sm={12}>
                             <Camembert/>
-                    </div>
-                </div>  {/*  Row */}
-
-                <div className="row"> {/* Row Widget Chart/Radar/4 */}
-                    <div className="col-lg-4">
+                    </Col>
+                    <Col lg={4} md={6}sm={12}>
                             <Widget_Histogramme/>
-                    </div>
-                    <div className="col-lg-2">
+                    </Col>
+                    <Col lg={4} md={6}sm={12}>
                             <Widget_Arraignée/>       
-                    </div>
-                    <div className="col-lg-6">
+                    </Col>
+                    <Col lg={4} md={6}sm={12}>
                             <Vertical_Sticks/>
-                    </div>
+                    </Col>
 
-                </div>   {/*  Row */}
+                </Row>   {/*  Row */}
 
             <footer>
-                <div className="le-footer">
                     Made by Gilles Liso & Alexandre Guenot
-                </div>
             </footer>
-        </div>
+        </Container-fluid>
 
         </div>
         
