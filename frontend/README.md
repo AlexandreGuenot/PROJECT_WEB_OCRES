@@ -17,3 +17,9 @@ Inspirez-vous des grands repos open sources qui existent sur github. Les informa
 Notre Trello: https://trello.com/b/RfXPg98a/projet-healthi
 
 Notre Figma: https://www.figma.com/file/8uLbNcmAlxgeIpr722v1lb/DashBoard-Web?node-id=27%3A0
+
+## Problèmes rencontrés
+
+Résolus: L'affichage de Gilles était dû à des paramètres par défault, tout va bien, la responsivité était dûe à une erreur de mesure lors de la définition des "col"
+
+Persistants: nous n'arrivons pas à modifier le padding/margin de nos éléments par rapport au bord droit de la page, à la barre de nav, et au footer.
