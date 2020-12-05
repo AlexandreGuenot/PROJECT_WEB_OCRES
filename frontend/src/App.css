@@ -34,20 +34,20 @@ ul {
 /*Page Principale*/
 .main {
   background-color: #164a41;
-  width:100%;
+  width: 100%;
 }
 .Row {
   width: 100%;
   margin-left: 0rem;
   margin-right: 0rem;
-  margin-top:2rem;
+  margin-top: 2rem;
 }
 
 .widget-Courbes {
   width: 35rem;
   height: 23rem;
   border-radius: 0.75rem;
-  background-color: #9dc88d; 
+  background-color: #9dc88d;
 }
 .title {
   text-align: center;
@@ -100,7 +100,7 @@ ul {
   height: 23rem;
   background-color: #39603d;
   border-radius: 0.75rem;
-  margin-right:0rem;
+  margin-right: 0rem;
 }
 .legende {
   font-weight: bolder;
@@ -126,11 +126,9 @@ footer {
   background-color: black;
   color: #ffffff;
   width: auto;
-  margin-bottom:1rem;
-  height: 3rem;
   text-decoration-color: blanchedalmond;
   text-align: center;
-  padding-top:10px;
+  padding-top: 10px;
 }
 
 .main_admin {

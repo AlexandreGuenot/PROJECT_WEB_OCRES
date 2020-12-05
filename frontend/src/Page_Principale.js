@@ -9,7 +9,7 @@ import Vertical_Sticks from './Components/Sticks'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 
-
+        
 // Page Widgets 
 function Page_Principale() {
     return(
@@ -18,7 +18,7 @@ function Page_Principale() {
                 <Row>   {/* Row */}
                 
                     <Col lg={4} md={6} sm={12}>
-                            <Widget_Courbes/>
+                            <Widget_Courbes/>                              
                     </Col>
 
                     <Col lg={4} md={6} sm={12}>                    

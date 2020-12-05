@@ -52,7 +52,7 @@ export const Histogramme = () => (
 </div>
 );
 export const Nbre_de_pas = () => (
-<div className="Nbres_de_pas">
+ <div className="Nbres_de_pas">
               <h1>Nombres de Pas aujourd'hui</h1>
               <div className="today">
                 <h5>6000</h5>
@@ -69,7 +69,7 @@ export const Courbes = () =>(
   <div className="widget-Courbes">
     <div className="title">Temps de Sommeil en heure</div>
             <LineChart
-                width={650}
+                 width={550}
                 height={350}
                 data={data_Courbes}
                 margin={{ top: 5, right: 30, left: 1, bottom: 5,}}>
