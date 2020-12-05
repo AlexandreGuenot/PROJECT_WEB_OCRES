@@ -1,4 +1,4 @@
-const { Mongoose } = require("mongoose");
+const { mongoose } = require("mongoose");
 
 const userSchema = new mongoose.Schema({
 
@@ -7,6 +7,6 @@ const userSchema = new mongoose.Schema({
         required: true,
     },
     lastName: String
-},{
+}, {
     timestamps: true
 })

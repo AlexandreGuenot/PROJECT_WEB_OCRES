@@ -18,7 +18,7 @@ ul {
   width: 100%;
   list-style: none;
 }
-.btn {
+.btn-custom {
   background-color: rgba(143, 238, 214, 0.329);
   border-radius: 0.5rem;
   height: 3rem;

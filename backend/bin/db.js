@@ -1,9 +1,6 @@
 // Ce fichier permet de se connecter à la Db
 const mongoose = require('mongoose');
 
-
-
-
 const connect = function (callback) {
     mongoose.set("debug", true);
     mongoose.set('useNewUrlParser', true);
