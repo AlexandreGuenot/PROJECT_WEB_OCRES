@@ -1,56 +1,46 @@
 import React, { useState } from 'react';
-import { Button, Card, Col, Container, Form, Row } from 'react-bootstrap';
-import DatePicker from "react-datepicker";
-import "react-datepicker/dist/react-datepicker.css";
-import { createSommeil } from './service/API'
+import { Col, Row } from 'react-bootstrap';
+import CamembertAdmin from './Components/admin/consommation';
+import CourbesAdmin from './Components/admin/Courbes'
+import EcranAdmin from './Components/admin/Ecran';
+import Nbres_de_pasAdmin from './Components/admin/Nbres_de_pas';
+import SportAdmin from './Components/admin/sport';
+import VisiteAdmin from './Components/admin/Visite';
+
+
+
 function Page_Admin() {
-    const [date, setDate] = useState(new Date())
-    const [temps, setTemps] = useState(0)
-    const createSommeilAction = () => {
-        createSommeil(date, temps).then(res => {
-            console.log(res.data)
-        }).catch(e => {
-            alert(e)
-        })
-    }
+
 
 
     return (
         <div>
             <h1>Page Admin</h1>
-            <Row style={{ padding: "50px" }}>
+            <Row>
                 <Col>
-                    <Card style={{ padding: "10px" }}>
-                        <Form>
-                            <Form.Group >
-                                <Form.Label>Date</Form.Label>
-                                <DatePicker selected={date} onChange={date => setDate(date)} />
-
-                            </Form.Group>
-
-                            <Form.Group >
-                                <Form.Label>Temps de sommeil en heure</Form.Label>
-                                <Form.Control type="number" placeholder="Temps" onChange={e => setTemps(e.target.value)} value={temps} />
-
-                            </Form.Group>
-                            <Button variant="primary" type="button" onClick={createSommeilAction}>
-                                Envoyer
-                            </Button>
-                        </Form>
-                    </Card>
+                    <CourbesAdmin />
                 </Col>
                 <Col>
+                    <Nbres_de_pasAdmin />
+                </Col>
+                <Col>
+                    <CamembertAdmin />
+                </Col>
+            </Row>
+            <Row>
+                <Col>
+                    <VisiteAdmin />
+                </Col>
+                <Col>
+                    <EcranAdmin />
 
                 </Col>
                 <Col>
-
+                    <SportAdmin />
                 </Col>
             </Row>
 
         </div>
-
-
-
 
     );
 }

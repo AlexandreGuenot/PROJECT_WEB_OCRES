@@ -28,6 +28,44 @@ router.get('/', async (req, res, next) => {
     }
 });
 
+// route pour lister toutes les données brutes
+router.get('/list', async (req, res) => {
+    try {
+        // on réupère les données
+        let sommeils = await Sommeil.find({});
+        res.json(sommeils)
+    } catch (e) {
+        console.error(err);
+        res.sendStatus(400);
+    }
+})
+
+// route pour supprimer un sommeil
+router.delete('/:sommeilId', async (req, res) => {
+    try {
+        // on cherche le sommeil avec l'id et on le supprime
+        await Sommeil.deleteOne({ _id: req.params.sommeilId })
+        res.json({
+            success: true
+        })
+    } catch (e) {
+        console.error(err);
+        res.sendStatus(400);
+    }
+})
+
+// route pour update un sommeil
+router.put('/:sommeilId', async (req, res) => {
+    try {
+        // on cherche le sommeil avec l'id et on l'update
+        await Sommeil.updateOne({ _id: req.params.sommeilId }, { date: req.body.date, temps: req.body.temps })
+        res.json({ success: true })
+    } catch (e) {
+        console.error(err);
+        res.sendStatus(400);
+    }
+})
+
 
 router.post('/', async (req, res, next) => {
 

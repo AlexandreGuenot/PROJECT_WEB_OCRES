@@ -11,7 +11,6 @@ const sommeilSchema = new mongoose.Schema({
         requuired: true
     }
 })
-
 const Sommeil = mongoose.model('Sommeil', sommeilSchema);
 
 module.exports = Sommeil;

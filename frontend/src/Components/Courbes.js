@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import './App.css';
-import data_Courbes from './data_Courbes'
 import { LineChart, Line, XAxis, YAxis, CartesianGrid, Tooltip, Legend }
     from 'recharts';
 import { getSommeils } from '../service/API'

@@ -1,34 +1,42 @@
-import React, { Component } from 'react';
-
-import data_Histo from './Data_Histo'
+import React, { useState, useEffect } from 'react';
+import { listVisite } from '../service/API'
 
 
 import {
   BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend,
 } from 'recharts';
 
-class Widget_Histogramme extends Component{
-    render() {
-    return (
-<div className="widget-Histogramme">
-    <div className="title">Nombres de Visites médicales cette année </div>
+const Widget_Histogramme = (props) => {
+
+  const [data, setData] = useState([])
+
+  useEffect(() => {
+    listVisite().then(res => {
+      setData(res.data)
+    }).catch(e => {
+      alert(e)
+    })
+  }, [])
+
+  return (
+    <div className="widget-Histogramme">
+      <div className="title">Nombres de Visites médicales cette année </div>
       <BarChart
         width={500}
         height={300}
-        data={data_Histo}
+        data={data}
         margin={{
           top: 5, right: 30, left: 20, bottom: 5,
         }}
       >
         <CartesianGrid strokeDasharray="3 3" />
-        <XAxis dataKey="name" />
+        <XAxis dataKey="titre" />
         <YAxis />
         <Tooltip />
         <Legend />
-        <Bar dataKey="Visites_médicale" fill="#8884d8" />
+        <Bar dataKey="valeur" fill="#8884d8" />
       </BarChart>
-</div>
-    );
-  }
+    </div>
+  );
 }
 export default Widget_Histogramme;

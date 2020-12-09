@@ -7,6 +7,11 @@ const cors = require('cors');
 const indexRouter = require('./routes/index');
 const usersRouter = require('./routes/users');
 const sommeilRouter = require('./routes/sommeil');
+const stepRouter = require('./routes/step');
+const consommationRouter = require('./routes/consommation');
+const visiteRouter = require('./routes/visite');
+const ecranRouter = require('./routes/ecran');
+const sportRouter = require('./routes/sport');
 
 const app = express();
 app.use(cors());
@@ -23,6 +28,12 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/sommeil', sommeilRouter);
+app.use('/step', stepRouter);
+app.use('/consommation', consommationRouter);
+app.use('/visite', visiteRouter);
+app.use('/ecran', ecranRouter);
+app.use('/sport', sportRouter);
+
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
