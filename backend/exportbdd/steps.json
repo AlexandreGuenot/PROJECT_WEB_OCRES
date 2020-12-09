@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "5fd0df9a172d9f1f58d6e6b6"
+  },
+  "titre": "Aujourd'hui",
+  "valeur": 214,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0dfa2172d9f1f58d6e6b7"
+  },
+  "titre": "Hier",
+  "valeur": 258,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0f78b82949a683460055b"
+  },
+  "titre": "Avant-Hier",
+  "valeur": 4000,
+  "__v": 0
+}]

@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "5fd0ec46dc93e024342a9d2a"
+  },
+  "titre": "Tennis",
+  "valeur": 100,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0ed02dc93e024342a9d2b"
+  },
+  "titre": "Natation",
+  "valeur": 150,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0ed09dc93e024342a9d2c"
+  },
+  "titre": "Baseball",
+  "valeur": 200,
+  "__v": 0
+}]

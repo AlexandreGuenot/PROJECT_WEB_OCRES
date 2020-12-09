@@ -1,0 +1,50 @@
+[{
+  "_id": {
+    "$oid": "5fd0e7599e21a443b008a2c3"
+  },
+  "titre": "Mardi",
+  "valeur": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e7599e21a443b008a2c4"
+  },
+  "titre": "Mercredi",
+  "valeur": 10,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e80d9e21a443b008a2c6"
+  },
+  "titre": "Jeudi",
+  "valeur": 15,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e8179e21a443b008a2c7"
+  },
+  "titre": "Vendredi",
+  "valeur": 20,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e81e9e21a443b008a2c8"
+  },
+  "titre": "Samedi",
+  "valeur": 5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e8249e21a443b008a2c9"
+  },
+  "titre": "Dimanche",
+  "valeur": 7,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0e8339e21a443b008a2cb"
+  },
+  "titre": "Lundi",
+  "valeur": 4,
+  "__v": 0
+}]

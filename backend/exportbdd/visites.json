@@ -1,0 +1,29 @@
+[{
+  "_id": {
+    "$oid": "5fd0e5c0fe07d84ee8382785"
+  },
+  "titre": "Trimestre 4",
+  "valeur": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0f75c82949a6834600558"
+  },
+  "titre": "Trimestre 1",
+  "valeur": 2,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0f76282949a6834600559"
+  },
+  "titre": "Trimestre 2",
+  "valeur": 3,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0f76782949a683460055a"
+  },
+  "titre": "Trimestre 3",
+  "valeur": 0,
+  "__v": 0
+}]

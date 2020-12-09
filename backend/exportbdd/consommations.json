@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "5fd0e8599e21a443b008a2cc"
+  },
+  "titre": "poisson",
+  "valeur": 7,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0ef37dc93e024342a9d2d"
+  },
+  "titre": "Féculents",
+  "valeur": 0.5,
+  "__v": 0
+},{
+  "_id": {
+    "$oid": "5fd0ef41dc93e024342a9d2e"
+  },
+  "titre": "Pâtes",
+  "valeur": 0.3,
+  "__v": 0
+}]
