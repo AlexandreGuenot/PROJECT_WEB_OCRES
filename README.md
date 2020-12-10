@@ -16,5 +16,5 @@ Chacun d'eux permet d'effectuer les actions du CRUD pour les différents widgets
 
 
 
-Lien Trello : 
+Lien du Trello : 
 https://trello.com/b/RfXPg98a/projet-healthi
