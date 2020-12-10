@@ -11,7 +11,7 @@ Page Principale:
 
 Page Admninistrative:
 6 Composants très similaire les uns aux autres. 
-Chacun d'eux permet d'effectuer les actions du CRUD pour les différents widgets ( Create, Read, Update , Delete ). On a également en dessous de chaque formulaire la liste des données présentes dans la Bdd pour ce widget. C'est dans cette liste, que , pour chaque donnée il y a un bouton " Mettre à jour " et un " Supprimer ". 
+Chacun d'eux permet d'effectuer les actions du CRUD pour les différents widgets ( Create, Read, Update , Delete ). On a également en dessous de chaque formulaire la liste des données présentes dans la Bdd pour ce widget. C'est dans cette liste, que , pour chaque donnée, il y a un bouton " Mettre à jour " et un " Supprimer ". 
 
 
 
