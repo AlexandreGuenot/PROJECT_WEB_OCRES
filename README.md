@@ -1,26 +1,18 @@
-# Projet de fin de semestre
+Projet d' Alexandre Guénot et Gilles Liso
 
-A lire impérativement avant de commencer quoi que ce soit, ce sont les règles que vous devrez appliquer tout au long du semestre:
+Dashboard axé sur des statistiques lié à la santé de l'individu avec 6 Widgets : 
+Page Principale: 
+-Widget 1: Temps de sommeil en heures par jour
+-Widget 2: Nombres de pas
+-Widget 3: Alimentation
+-Widget 4: Nombres de visites médicales
+-Widget 5: Sports pratiqués en nombre d'heures
+-Widget 6: Temps passé devant les écrans en heures par jour
 
-<p align="center">
- <a href="https://gitlab.com/Adrien_Kourganoff/instructions_web_ocres_ing4/-/blob/master/README.md">Règles pour le semestre</a>
-</p>
+Page Admninistrative:
+6 Composants très similaire les uns aux autres. 
+Chacun d'eux permet d'effectuer les actions du CRUD pour les différents widgets ( Create, Read, Update , Delete ). On a également en dessous de chaque formulaire la liste des données présentes dans la Bdd pour ce widget. C'est dans cette liste, que , pour chaque donnée il y a un bouton " Mettre à jour " et un " Supprimer ". 
 
-## Introduction
-
-Ce repo git contient deux repertoires. L'un concerne la partie backend et l'autre la partie frontend.
-
-Les deux repertoires ont été initialisé pour vous aider à démarrer le projet dans les meilleures conditions.
-
-Chacun de ces repertoires contient un README.md qui vous pouvez vous approprier. Nous vous encourageons à le faire en y mettant toute les informations nécessaires à la compréhension de votre projet
-
-## Instructions
-
-Les instructions sont à retrouver dans le pdf instruction.pdf.
-
-**Le non respect de ces instructions entraînera des pertes de points alors prenez le temps de tout lire et de poser des questions si vous ne comprenez pas**
-
-Pour rappel, la probabilité de recevoir une réponse à un mail envoyé quelques heures avant le rendu est très proche de 0.
 
 
 
