@@ -70,18 +70,22 @@ function VisiteAdmin() {
 
     return (
         <div>
-            <h1>Widget Visite </h1>
-
+            <h1>Visites Médicales</h1>
+            <p> Combien de fois avez-vous consultez cette année?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
-                        <Form.Label>Titre</Form.Label>
-                        <Form.Control type="text" placeholder="Titre" onChange={e => setTitre(e.target.value)} value={titre} />
-
+                        <Form.Label>Trimestre</Form.Label>
+                        <Form.Control as="select" size="lg" custom onChange={e => setTitre(e.target.value)} value={titre}>
+                            <option>Jan - Fev - Mars</option>
+                            <option>Avr - Mai _ Juin</option>
+                            <option>Jui - Août - Sep</option>
+                            <option>Oct - Nov- Dec</option>
+                        </Form.Control>
                     </Form.Group>
 
                     <Form.Group >
-                        <Form.Label>Valeur</Form.Label>
+                        <Form.Label>Nombre de visites </Form.Label>
                         <Form.Control type="number" placeholder="Valeur" onChange={e => setValeur(e.target.value)} value={valeur} />
 
                     </Form.Group>
@@ -97,12 +101,16 @@ function VisiteAdmin() {
                         <ListGroup.Item key={"visite" + index}>
                             <Form>
                                 <Form.Group >
-                                    <Form.Label>Titre</Form.Label>
-                                    <Form.Control type="text" placeholder="Titre" onChange={e => handleChangeTitre(e.target.value, index)} value={visite.titre} />
-
+                                    <Form.Label>Trimestre</Form.Label>
+                                    <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={visite.titre}>
+                                        <option>Jan - Fev - Mars</option>
+                                        <option>Avr - Mai _ Juin</option>
+                                        <option>Jui - Août - Sep</option>
+                                        <option>Oct - Nov- Dec</option>
+                                    </Form.Control>
                                 </Form.Group>
                                 <Form.Group >
-                                    <Form.Label>Valeur</Form.Label>
+                                    <Form.Label>Nombre de visites</Form.Label>
                                     <Form.Control type="number" placeholder="Valeur" onChange={e => handleChangeValeur(e.target.value, index)} value={visite.valeur} />
                                 </Form.Group>
                             </Form>

@@ -70,24 +70,27 @@ function SportAdmin() {
 
     return (
         <div>
-            <h1>Widget Sport</h1>
-
+            <h1>Activité physique</h1>
+            <p>Combien de temps pratiquez vous vos disciplines ?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
-                        <Form.Label>Titre</Form.Label>
+                        <Form.Label>Sport</Form.Label>
 
                         <Form.Control as="select" size="lg" custom onChange={e => setTitre(e.target.value)} value={titre}>
                             <option>Tennis</option>
                             <option>Football</option>
                             <option>Natation</option>
-                            <option>Baseball</option>
+                            <option>Basketball</option>
                             <option>Handball</option>
+                            <option>Cyclisme</option>
+                            <option>Running</option>
+                            <option>Escalade</option>
                         </Form.Control>
                     </Form.Group>
 
                     <Form.Group >
-                        <Form.Label>Valeur</Form.Label>
+                        <Form.Label>Nombre d'heures</Form.Label>
                         <Form.Control type="number" placeholder="Valeur" onChange={e => setValeur(e.target.value)} value={valeur} />
 
 
@@ -104,17 +107,20 @@ function SportAdmin() {
                         <ListGroup.Item key={"sport" + index}>
                             <Form>
                                 <Form.Group >
-                                    <Form.Label>Titre</Form.Label>
+                                    <Form.Label>Sport</Form.Label>
                                     <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={sport.titre}>
                                         <option>Tennis</option>
                                         <option>Football</option>
                                         <option>Natation</option>
-                                        <option>Baseball</option>
+                                        <option>Basketball</option>
                                         <option>Handball</option>
+                                        <option>Cyclisme</option>
+                                        <option>Running</option>
+                                        <option>Escalade</option>
                                     </Form.Control>
                                 </Form.Group>
                                 <Form.Group >
-                                    <Form.Label>Valeur</Form.Label>
+                                    <Form.Label>Nombre d'heures</Form.Label>
                                     <Form.Control type="number" placeholder="Valeur" onChange={e => handleChangeValeur(e.target.value, index)} value={sport.valeur} />
                                 </Form.Group>
                             </Form>

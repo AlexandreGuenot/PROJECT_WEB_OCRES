@@ -70,18 +70,23 @@ function CamembertAdmin() {
 
     return (
         <div>
-            <h1>Widget Consommation </h1>
+            <h1>Alimentation</h1>
+            <p>Renseignez les types d'aliments consommés durant la semaine.</p>
 
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
-                        <Form.Label>Titre</Form.Label>
-                        <Form.Control type="text" placeholder="Titre" onChange={e => setTitre(e.target.value)} value={titre} />
-
+                        <Form.Label>Aliment</Form.Label>
+                        <Form.Control as="select" size="lg" custom onChange={e => setTitre(e.target.value)} value={titre}>
+                            <option>Poisson</option>
+                            <option>Viande</option>
+                            <option>Légume</option>
+                            <option>Féculents</option>
+                        </Form.Control>
                     </Form.Group>
 
                     <Form.Group >
-                        <Form.Label>Valeur</Form.Label>
+                        <Form.Label>Nombre de jours</Form.Label>
                         <Form.Control type="number" placeholder="Valeur" onChange={e => setValeur(e.target.value)} value={valeur} />
 
                     </Form.Group>
@@ -97,12 +102,16 @@ function CamembertAdmin() {
                         <ListGroup.Item key={"consommation" + index}>
                             <Form>
                                 <Form.Group >
-                                    <Form.Label>Titre</Form.Label>
-                                    <Form.Control type="text" placeholder="Titre" onChange={e => handleChangeTitre(e.target.value, index)} value={consommation.titre} />
-
+                                    <Form.Label>Aliments</Form.Label>
+                                    <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={consommation.titre}>
+                                         <option>Poisson</option>
+                                         <option>Viande</option>
+                                         <option>Légume</option>
+                                         <option>Féculents</option>
+                                    </Form.Control>
                                 </Form.Group>
                                 <Form.Group >
-                                    <Form.Label>Valeur</Form.Label>
+                                    <Form.Label>Nombre de jours</Form.Label>
                                     <Form.Control type="number" placeholder="Valeur" onChange={e => handleChangeValeur(e.target.value, index)} value={consommation.valeur} />
                                 </Form.Group>
                             </Form>

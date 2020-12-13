@@ -70,8 +70,8 @@ function Nbres_de_pasAdmin() {
 
     return (
         <div>
-            <h1>Widget Nombre de pas</h1>
-
+            <h1>Nombre de pas</h1>
+            <p>Vous marchez beaucoup ? peu ? Trop ?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
@@ -81,7 +81,7 @@ function Nbres_de_pasAdmin() {
                     </Form.Group>
 
                     <Form.Group >
-                        <Form.Label>Valeur</Form.Label>
+                        <Form.Label>Pas</Form.Label>
                         <Form.Control type="number" placeholder="Valeur" onChange={e => setValeur(e.target.value)} value={valeur} />
 
                     </Form.Group>
@@ -102,7 +102,7 @@ function Nbres_de_pasAdmin() {
 
                                 </Form.Group>
                                 <Form.Group >
-                                    <Form.Label>Valeur</Form.Label>
+                                    <Form.Label>Pas</Form.Label>
                                     <Form.Control type="number" placeholder="Valeur" onChange={e => handleChangeValeur(e.target.value, index)} value={step.valeur} />
                                 </Form.Group>
                             </Form>

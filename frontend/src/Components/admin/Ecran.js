@@ -70,18 +70,25 @@ function EcranAdmin() {
 
     return (
         <div>
-            <h1>Widget Temps Ecran </h1>
-
+            <h1>Expositions aux écrans </h1>
+            <p>Rentrez le nombre d'heures que vous avez passé sur l'ensemble de vos écrans</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
-                        <Form.Label>Titre</Form.Label>
-                        <Form.Control type="text" placeholder="Titre" onChange={e => setTitre(e.target.value)} value={titre} />
-
+                        <Form.Label>Jour</Form.Label>
+                        <Form.Control as="select" size="lg" custom onChange={e => setTitre(e.target.value)} value={titre}>
+                            <option>Lundi</option>
+                            <option>Mardi</option>
+                            <option>Mercredi</option>
+                            <option>Jeudi</option>
+                            <option>Vendredi</option>
+                            <option>Samedi</option>
+                            <option>Dimanche</option>
+                        </Form.Control>                           
                     </Form.Group>
 
                     <Form.Group >
-                        <Form.Label>Valeur</Form.Label>
+                        <Form.Label>Nombre d'heures</Form.Label>
                         <Form.Control type="number" placeholder="Valeur" onChange={e => setValeur(e.target.value)} value={valeur} />
 
                     </Form.Group>
@@ -97,12 +104,19 @@ function EcranAdmin() {
                         <ListGroup.Item key={"ecran" + index}>
                             <Form>
                                 <Form.Group >
-                                    <Form.Label>Titre</Form.Label>
-                                    <Form.Control type="text" placeholder="Titre" onChange={e => handleChangeTitre(e.target.value, index)} value={ecran.titre} />
-
+                                    <Form.Label>Jour</Form.Label>
+                                    <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={ecran.titre}>
+                                        <option>Lundi</option>
+                                        <option>Mardi</option>
+                                        <option>Mercredi</option>
+                                        <option>Jeudi</option>
+                                        <option>Vendredi</option>
+                                        <option>Samedi</option>
+                                        <option>Dimanche</option>
+                                     </Form.Control> 
                                 </Form.Group>
                                 <Form.Group >
-                                    <Form.Label>Valeur</Form.Label>
+                                    <Form.Label>Nombre d'heures</Form.Label>
                                     <Form.Control type="number" placeholder="Valeur" onChange={e => handleChangeValeur(e.target.value, index)} value={ecran.valeur} />
                                 </Form.Group>
                             </Form>

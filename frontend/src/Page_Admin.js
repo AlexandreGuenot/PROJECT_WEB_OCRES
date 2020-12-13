@@ -14,32 +14,43 @@ function Page_Admin() {
 
 
     return (
-        <div>
-            <h1>Page Admin</h1>
-            <Row>
-                <Col>
-                    <CourbesAdmin />
-                </Col>
-                <Col>
-                    <Nbres_de_pasAdmin />
-                </Col>
-                <Col>
-                    <CamembertAdmin />
-                </Col>
-            </Row>
-            <Row>
-                <Col>
-                    <VisiteAdmin />
-                </Col>
-                <Col>
-                    <EcranAdmin />
-
-                </Col>
-                <Col>
-                    <SportAdmin />
-                </Col>
-            </Row>
-
+        <div class="admin_page">
+            <div class="gros_titre">
+            <h1>Un formulaire qui change la vie</h1>
+            </div>
+            <div class="description_admin">
+                <p>Commencez à mettre de l'ordre dans votre organisme et laissez Healthi.I prendre soin de vous, en remplissant chaque semaine ce formulaire de santé.</p>
+                <p>Nos coachs sportifs, nutritionnistes et aides soignants de qualité analyserons vos données afin de vous fournir les meilleurs programmes et conseils santé.</p>
+            </div>
+            <div class="container_cruds">
+                <Container-fluid>
+                    <Row>
+                        <Col lg={4} md={6} sm={12}>
+                            <CourbesAdmin />
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <Nbres_de_pasAdmin />
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <CamembertAdmin />
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col lg={4} md={6} sm={12}>
+                            <VisiteAdmin />
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <SportAdmin />
+                        </Col>
+                        <Col lg={4} md={6} sm={12}>
+                            <EcranAdmin />
+                        </Col>
+                    </Row>
+                </Container-fluid>
+            </div>
+            <footer>
+                        Made by Gilles Liso & Alexandre Guenot
+            </footer>
         </div>
 
     );
