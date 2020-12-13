@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { listVisite, deleteVisite, updateVisite, createVisite } from '../../service/API'
 function VisiteAdmin() {
 
-    const [titre, setTitre] = useState(null)
+    const [titre, setTitre] = useState("Jan - Fev - Mars")
     const [valeur, setValeur] = useState(0)
     const [data, setData] = useState([])
 
@@ -71,14 +71,14 @@ function VisiteAdmin() {
     return (
         <div>
             <h1>Visites Médicales</h1>
-            <p> Combien de fois avez-vous consultez cette année?</p>
+            <p> Combien de fois avez-vous consulté cette année?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
                         <Form.Label>Trimestre</Form.Label>
                         <Form.Control as="select" size="lg" custom onChange={e => setTitre(e.target.value)} value={titre}>
                             <option>Jan - Fev - Mars</option>
-                            <option>Avr - Mai _ Juin</option>
+                            <option>Avr - Mai - Juin</option>
                             <option>Jui - Août - Sep</option>
                             <option>Oct - Nov- Dec</option>
                         </Form.Control>
@@ -104,7 +104,7 @@ function VisiteAdmin() {
                                     <Form.Label>Trimestre</Form.Label>
                                     <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={visite.titre}>
                                         <option>Jan - Fev - Mars</option>
-                                        <option>Avr - Mai _ Juin</option>
+                                        <option>Avr - Mai - Juin</option>
                                         <option>Jui - Août - Sep</option>
                                         <option>Oct - Nov- Dec</option>
                                     </Form.Control>

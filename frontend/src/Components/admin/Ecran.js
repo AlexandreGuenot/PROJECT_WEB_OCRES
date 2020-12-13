@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { listEcran, deleteEcran, updateEcran, createEcran } from '../../service/API'
 function EcranAdmin() {
 
-    const [titre, setTitre] = useState(null)
+    const [titre, setTitre] = useState("Lundi")
     const [valeur, setValeur] = useState(0)
     const [data, setData] = useState([])
 

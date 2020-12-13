@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { listConsommation, deleteConsommation, updateConsommation, createConsommation } from '../../service/API'
 function CamembertAdmin() {
 
-    const [titre, setTitre] = useState(null)
+    const [titre, setTitre] = useState("Poisson")
     const [valeur, setValeur] = useState(0)
     const [data, setData] = useState([])
 
