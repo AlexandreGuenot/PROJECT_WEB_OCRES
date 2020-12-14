@@ -71,7 +71,7 @@ function Nbres_de_pasAdmin() {
     return (
         <div>
             <h1>Nombre de pas</h1>
-            <p>Vous marchez beaucoup ? peu ? Trop ?</p>
+            <p>Vous marchez beaucoup ? Peu ? Trop ?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >

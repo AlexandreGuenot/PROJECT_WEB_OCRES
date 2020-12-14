@@ -71,7 +71,7 @@ function SportAdmin() {
     return (
         <div>
             <h1>Activité physique</h1>
-            <p>Combien de temps pratiquez vous vos disciplines ?</p>
+            <p>Combien de temps pratiquez-vous vos disciplines ?</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >
