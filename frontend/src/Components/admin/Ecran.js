@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { listEcran, deleteEcran, updateEcran, createEcran } from '../../service/API'
 function EcranAdmin() {
 
-    const [titre, setTitre] = useState(null)
+    const [titre, setTitre] = useState("Lundi")
     const [valeur, setValeur] = useState(0)
     const [data, setData] = useState([])
 
@@ -84,7 +84,7 @@ function EcranAdmin() {
                             <option>Vendredi</option>
                             <option>Samedi</option>
                             <option>Dimanche</option>
-                        </Form.Control>                           
+                        </Form.Control>
                     </Form.Group>
 
                     <Form.Group >
@@ -113,7 +113,7 @@ function EcranAdmin() {
                                         <option>Vendredi</option>
                                         <option>Samedi</option>
                                         <option>Dimanche</option>
-                                     </Form.Control> 
+                                    </Form.Control>
                                 </Form.Group>
                                 <Form.Group >
                                     <Form.Label>Nombre d'heures</Form.Label>

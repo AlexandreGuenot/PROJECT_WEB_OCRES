@@ -4,7 +4,7 @@ import "react-datepicker/dist/react-datepicker.css";
 import { listConsommation, deleteConsommation, updateConsommation, createConsommation } from '../../service/API'
 function CamembertAdmin() {
 
-    const [titre, setTitre] = useState(null)
+    const [titre, setTitre] = useState("Poisson")
     const [valeur, setValeur] = useState(0)
     const [data, setData] = useState([])
 
@@ -104,10 +104,10 @@ function CamembertAdmin() {
                                 <Form.Group >
                                     <Form.Label>Aliments</Form.Label>
                                     <Form.Control as="select" size="lg" custom onChange={e => handleChangeTitre(e.target.value, index)} value={consommation.titre}>
-                                         <option>Poisson</option>
-                                         <option>Viande</option>
-                                         <option>Légume</option>
-                                         <option>Féculents</option>
+                                        <option>Poisson</option>
+                                        <option>Viande</option>
+                                        <option>Légume</option>
+                                        <option>Féculents</option>
                                     </Form.Control>
                                 </Form.Group>
                                 <Form.Group >

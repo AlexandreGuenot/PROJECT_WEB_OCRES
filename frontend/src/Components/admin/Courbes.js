@@ -72,7 +72,7 @@ function CourbesAdmin() {
     return (
         <div>
             <h1>Sommeil</h1>
-            <p>Rentrez votre temps de sommeil en fonction de la date</p>
+            <p>Indiquez votre temps de sommeil en fonction de la date</p>
             <Card style={{ padding: "10px" }}>
                 <Form>
                     <Form.Group >

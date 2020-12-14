@@ -16,10 +16,10 @@ function Page_Admin() {
     return (
         <div class="admin_page">
             <div class="gros_titre">
-            <h1>Un formulaire qui change la vie</h1>
+                <h1>Un formulaire qui change la vie</h1>
             </div>
             <div class="description_admin">
-                <p>Commencez à mettre de l'ordre dans votre organisme et laissez Healthi.I prendre soin de vous, en remplissant chaque semaine ce formulaire de santé.</p>
+                <p>Commencez à mettre de l'ordre dans votre organisme et laissez Health.I prendre soin de vous, en remplissant chaque semaine ce formulaire de santé.</p>
                 <p>Nos coachs sportifs, nutritionnistes et aides soignants de qualité analyserons vos données afin de vous fournir les meilleurs programmes et conseils santé.</p>
             </div>
             <div class="container_cruds">
@@ -49,7 +49,7 @@ function Page_Admin() {
                 </Container-fluid>
             </div>
             <footer>
-                        Made by Gilles Liso & Alexandre Guenot
+                Made by Gilles Liso & Alexandre Guenot
             </footer>
         </div>
 
